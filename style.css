@@ -11,7 +11,7 @@ body{
 .container{
   width: 30%;
   margin:0 auto;
-  padding: 40px;
+  padding: 20px;
   margin-bottom: 10px;
   background-color:#e6e6e6;
   border: 1px solid #e8491d;
@@ -30,8 +30,8 @@ body{
   height: 0;
   border-left:500px solid transparent;
   border-right:500px solid transparent;
-  border-top: 60px solid #e8491d;
-  padding-bottom: 60px;
+  border-top: 100px solid #e8491d;
+  padding-bottom: 20px;
 }
 
 ul{
