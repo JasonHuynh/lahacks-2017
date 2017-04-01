@@ -9,7 +9,7 @@ body{
 
 /* Global */
 .container{
-  width: 30%;
+  width: 20%;
   margin:0 auto;
   padding: 20px;
   margin-bottom: 10px;
@@ -17,11 +17,39 @@ body{
   border: 1px solid #e8491d;
 }
 
+.container2 {
+  width: 8%;
+  margin:0 auto;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color:#e6e6e6;
+  border: 1px solid #e8491d;
+  margin-right:400px;
+}
+
 .button_1{
   background-color: #e8491d;
   margin:0 auto;
-  align-self:
+}
 
+.likeButton {
+    background-color: #e8491d;
+    margin:0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.dislikeButton {
+    background-color: white;
+    margin:0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 5px;
 }
 
 .arrow-down{
@@ -44,7 +72,6 @@ header{
 }
 
 footer{
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
