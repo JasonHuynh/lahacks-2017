@@ -9,46 +9,57 @@ body{
 
 /* Global */
 .container{
-  width: 20%;
+  vertical-align: middle;
+  width: 250px;
   margin:0 auto;
-  padding: 20px;
+  padding: 2%;
+  padding-left: 5%;
   margin-bottom: 10px;
-  background-color:#e6e6e6;
+  background-color:#344060;
   border: 1px solid #e8491d;
 }
 
 .container2 {
+  float:right;
   width: 8%;
   margin:0 auto;
-  padding: 5px;
-  margin-bottom: 10px;
-  background-color:#e6e6e6;
+  padding: 30px;
+  background-color: #344060;
   border: 1px solid #e8491d;
-  margin-right:400px;
+  margin-right:25%;
+  margin-top: -200px;
 }
 
-.button_1{
-  background-color: #e8491d;
+.buttonx{
+  background-image: url("yelp2.jpg");
+  background-repeat: no-repeat;
   margin:0 auto;
+  background-position: 0px 0px;
+  vertical-align: middle;
+  height: 36px;
+  width: 80px;
+
 }
 
 .likeButton {
+    float: center;
     background-color: #e8491d;
     margin:0 auto;
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 5px;
 }
 
 .dislikeButton {
+    float: center;
     background-color: white;
     margin:0 auto;
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 5px;
 }
 
@@ -72,10 +83,13 @@ header{
 }
 
 footer{
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear: both;
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top:20px;
   color:#ffffff;
   background-color:#e8491d;
   text-align: center;
